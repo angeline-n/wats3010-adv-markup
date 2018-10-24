@@ -1,5 +1,15 @@
 /* Styles for the Advanced Markup assignment. */
 
+h1 {
+	padding: 2rem;
+	margin: 0;
+	border-bottom: 0.04rem solid black;
+	text-align: center;
+}
+
+ul.top-nav {
+	padding: 0;
+}
 
 .top-nav li {
 	display: inline;
@@ -32,6 +42,7 @@ img {
 
 .bio-photo {
 	border: 0.01rem dashed black;
+	float: left;
 }
 
 section {
