@@ -1,1 +1,40 @@
 /* Styles for the Advanced Markup assignment. */
+
+
+.top-nav li {
+	display: inline-block;
+}
+
+aside {
+	float: right;
+}
+
+li {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	padding-left: 1.5em;
+	padding-right: 1.5rem;
+	border: 0.01rem solid black;
+}
+
+.footnote {
+	text-decoration: none;
+}
+
+.smalltext {
+	font-size: 0.75rem;
+}
+
+.bottom-nav li {
+	display: inline-block;
+}
+
+.bibliography {
+	font-size: 0.75rem;
+}
