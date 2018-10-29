@@ -93,6 +93,16 @@ aside ul li {
 	width: 10%;
 }
 
+dl {
+  width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+dt {
+	font-weight: bold;
+}
+
 /* Bio-Photo Styles */
 
 .bio-photo {
