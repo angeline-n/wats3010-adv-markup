@@ -63,7 +63,7 @@ ul.top-nav {
 	background-color: rgba(173, 216, 230, 0.8);
 }
 
-.active {
+.top-nav li a.active {
 	text-decoration: none;
 	padding: 1rem;
 	background-color: rgb(173, 216, 230);
