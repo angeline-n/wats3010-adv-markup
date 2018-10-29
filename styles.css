@@ -187,6 +187,11 @@ a[aria-describedby="footnote-label"]{
 /* Small Screens Styles */
 
 @media screen and (max-width: 500px) {
+    
+    .top-nav li a {
+        display: block;
+    }
+    
 	section {
 		width: 95%;
 		padding: 3%;
