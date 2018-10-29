@@ -49,10 +49,11 @@ ul.top-nav {
 
 .top-nav li a {
 	text-decoration: none;
+	font-weight: bold; 
 	padding: 1rem;
 	background-color: rgb(176,196,222);
 	background-color: rgba(176, 196, 222, 0.8);
-	display: block;
+	display: inline-block;
 }
 
 .top-nav li a:hover {
