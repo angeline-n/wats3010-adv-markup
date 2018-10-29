@@ -52,6 +52,14 @@ aside {
 	float: right;
 }
 
+aside ul li {
+	display:inline; 
+}
+
+.twitter img, .facebook img, .pinterest img, .email img {
+	width: 20%;
+}
+
 /* Bio-Photo Styles */
 
 .bio-photo {
