@@ -213,7 +213,7 @@ a[aria-describedby="footnote-label"]{
 		width: 95%;
 		padding: 3%;
 		margin: 0 auto;
-                display: block;
+                display: inline-block;
 		float: none;
 		
         }
