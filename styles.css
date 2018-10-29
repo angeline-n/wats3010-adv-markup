@@ -210,7 +210,9 @@ a[aria-describedby="footnote-label"]{
 	}
 	
         .bio-photo {
-		width: 100%;
+		width: 95%;
+                padding: 3%;
+                margin: 0 auto;
 		float: none;
 		
         }
