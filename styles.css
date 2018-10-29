@@ -2,6 +2,24 @@
 
 /* General Styles */
 
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(112,128,144);
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
 li {
 	list-style: none;
 }
@@ -32,13 +50,23 @@ ul.top-nav {
 .top-nav li a {
 	text-decoration: none;
 	padding: 1rem;
-	background-color: rgb(202, 219, 247);
+	background-color: rgb(176,196,222);
+	background-color: rgba(176, 196, 222, 0.8);
+	display: block;
 }
 
-.top-nav li a.active {
+.top-nav li a:hover {
 	text-decoration: none;
 	padding: 1rem;
-	background-color: rgb(177, 237, 161);
+	background-color: rgb(173, 216, 230);
+	background-color: rgba(173, 216, 230, 0.8);
+}
+
+.active {
+	text-decoration: none;
+	padding: 1rem;
+	background-color: rgb(173, 216, 230);
+	background-color: rgba(173, 216, 230, 0.8);
 }
 
 /* Aside Styles */
@@ -46,8 +74,8 @@ ul.top-nav {
 aside {
 	width: 30%;
 	padding: 2%;
-	background-color: rgb(177, 237, 161);
-	background-color: rgba(177, 237, 161, 0.8);
+	background-color: rgb(176,196,222);
+	background-color: rgba(176, 196, 222, 0.8);
 	border-radius: 1.5rem;
 	float: right;
 }
