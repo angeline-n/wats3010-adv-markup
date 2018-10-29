@@ -209,8 +209,7 @@ a[aria-describedby="footnote-label"]{
 		float: none;
 	}
 	
-	bio-photo {
-                padding: 10%;
+        .bio-photo {
 		width: 100%;
 		float: none;
 		
